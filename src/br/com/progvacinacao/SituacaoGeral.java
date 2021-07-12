@@ -1,7 +1,5 @@
 package br.com.progvacinacao;
 
-import java.util.Scanner;
-
 public class SituacaoGeral {
 	
 		public static void dadosGerais() {
@@ -31,8 +29,10 @@ public class SituacaoGeral {
 		Scanner ler = new Scanner(System.in);
 		int opcao;
 		
-		System.out.println("SELECIONE UMA OPÇÃO \n====================\n1. Voltar a Página Inicial\n2. "
-				+ "Sair");
+		System.out.println("\n========Selecione uma opção========");
+		System.out.println("\n1. Voltar a Página");
+		System.out.println("\n2. Sair"); 
+		
 		opcao = ler.nextInt();
 
 		if(opcao == 1) {
@@ -47,4 +47,5 @@ public class SituacaoGeral {
 
 }
 	}
+		
 		
