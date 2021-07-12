@@ -1,5 +1,7 @@
 package br.com.progvacinacao;
 
+import java.util.Scanner;
+
 public class SituacaoGeral {
 	
 		public  void dadosGerais() {
@@ -26,5 +28,22 @@ public class SituacaoGeral {
 		System.out.println("\nDose Única ---> 290.477 ");
 		System.out.println("\nPorcentagem da população vacinada ---> 8%");
 		
-	}
+		Scanner ler = new Scanner(System.in);
+		int opcao;
+		
+		System.out.println("SELECIONE UMA OPÇÃO \n====================\n1. Voltar a Página Inicial\n2. "
+				+ "Sair");
+		opcao = ler.nextInt();
+
+		if(opcao == 1) {
+			System.out.println("\nVolta para pg inicial2");
+		}
+
+		else if(opcao == 2) {
+			System.out.println("\nVacina Já!");
+		}
+
+		
+
+}
 	}
