@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SituacaoGeral {
 	
-		public  void dadosGerais() {
+		public static void dadosGerais() {
 		System.out.println("========Informações Básicas=======");
 		System.out.println("\n*Criar Cadastro no site Vacina Já (https://www.vacinaja.sp.gov.br/)");
 		System.out.println("\n*Caso não possua, no dia da vacinação\r\n"
@@ -36,7 +36,7 @@ public class SituacaoGeral {
 		opcao = ler.nextInt();
 
 		if(opcao == 1) {
-			System.out.println("\nVolta para pg inicial2");
+			//Linkar pagina inicial
 		}
 
 		else if(opcao == 2) {
