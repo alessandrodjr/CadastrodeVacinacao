@@ -1,9 +1,11 @@
 package br.com.progvacinacao;
 
+import java.util.Scanner;
+
 public class SituacaoGeral {
 	
 		public static void dadosGerais() {
-		System.out.println("========Informações Básicas=======");
+		System.out.println("========Informa��o Gerais=======");
 		System.out.println("\n*Criar Cadastro no site Vacina Já (https://www.vacinaja.sp.gov.br/)");
 		System.out.println("\n*Caso não possua, no dia da vacinação\r\n"
 				+ "levar RG, Cartão do Sus e Comprovante de\r\n"
@@ -36,7 +38,7 @@ public class SituacaoGeral {
 		opcao = ler.nextInt();
 
 		if(opcao == 1) {
-			Cadastro.cadastrando();
+			MenuInicial.menu();
 		}
 
 		else if(opcao == 2) {

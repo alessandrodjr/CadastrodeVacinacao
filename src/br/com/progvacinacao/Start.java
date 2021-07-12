@@ -4,7 +4,8 @@ public class Start {
 
 	public static void main(String[] args) {
 		
-		Cadastro.cadastrando();
+		MenuInicial.menu();
+		
 
 	}
 

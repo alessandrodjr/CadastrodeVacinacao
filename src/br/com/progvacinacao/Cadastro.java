@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Cadastro extends Usuario {
 
 
-	static void cadastrando() {
+	public static void cadastrando() {
 		
 		Scanner ler = new Scanner(System.in);
 		Usuario user1 =  new Usuario();
@@ -24,7 +24,7 @@ public class Cadastro extends Usuario {
 				+ " a sua região:" +"\n1- Centro \n2- Norte \n3- Leste \n4- Sul \n5- Oeste");
 		user1.setRegiao(ler.nextInt());
 		
-				
+		
 		System.out.println("\n*****************************COMO PODEMOS AJUDAR?*****************************\n"
 				+ "\nDigite o número para opção desejada: \n1- Vacinação \n2- Situação Geral \n3- Informações");
 		user1.setAjuda(ler.nextInt());
