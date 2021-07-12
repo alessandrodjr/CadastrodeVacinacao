@@ -36,7 +36,7 @@ public class SituacaoGeral {
 		opcao = ler.nextInt();
 
 		if(opcao == 1) {
-			//Linkar pagina inicial
+			Cadastro.cadastrando();
 		}
 
 		else if(opcao == 2) {
@@ -47,3 +47,4 @@ public class SituacaoGeral {
 
 }
 	}
+		
