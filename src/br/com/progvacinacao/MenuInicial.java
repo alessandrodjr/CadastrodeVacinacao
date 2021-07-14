@@ -7,16 +7,17 @@ public class MenuInicial {
 	public static void menu(){
 		
 		Scanner ler = new Scanner(System.in);
-		System.out.println("***************************** MENU *********************************");
-		System.out.println("\n                Bem vinde ao NOME DO PROJETO!!!\n"
-						+ "===================================================================");
+		System.out.println("******************************** MENU **********************************");
+		System.out.println("\n                   Bem vinde ao Dissemina Vac!!!\n"
+						+ "========================================================================");
 		
 		int opcao;
 		
-		System.out.println("                      SELECIONE UMA OPÇÃO \n"
-						+ "==================================================================\n1. "
+		System.out.println("                       SELECIONE UMA OPÇÃO \n"
+						+ "========================================================================\n1. "
 						+ "Cadastro\n2. "
-						+ "Situação geral\n3. Informações");
+						+ "Situação geral de vacinação em São Paulo\n3. "
+						+ "Informações do sistema");
 		
 		opcao = ler.nextInt();
 		
@@ -29,7 +30,7 @@ public class MenuInicial {
 		}
 		
 		else if(opcao == 3) {
-			System.out.println("\nINFORMAÇÕES");
+			InfoSistema.infsistema();
 		}
 		
 	}
