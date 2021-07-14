@@ -18,8 +18,13 @@ public class Cadastro {
 		user1.setCpf(ler.nextLong());	
 		
 		System.out.println("\nQual a sua idade? ");
-		user1.setIdade(ler.nextInt());				
+		user1.setIdade(ler.nextInt());
 		
+		if(user1.getIdade() <= 0 || user1.getIdade() >= 120 ) {
+			System.out.println("Idade inválida\n");
+			Cadastro.cadastrando();			
+		}
+				
 		System.out.println("\nDe acordo com as regiões abaixo digite o número correspondente"
 				+ " a sua região:" +"\n1- Centro \n2- Norte \n3- Leste \n4- Sul \n5- Oeste");
 		user1.setRegiao(ler.nextInt());
