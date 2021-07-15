@@ -602,7 +602,7 @@ public class Cadastro {
 
 		System.out.println("\n========================================= Selecione uma opção =========================================");
 		System.out.println("\n1. Voltar ao menu");
-		System.out.println("\n2. Sair");
+		System.out.println("\n2. Sair ");
 
 		opcao = ler.nextInt();
 

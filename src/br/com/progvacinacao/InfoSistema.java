@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class InfoSistema {
 	
 	public static void infsistema(){
+		
 		System.out.println("======================================== Informações do Sistema =======================================");
 		System.out.println("\n*O objetivo do Dissemina Vac é levar informação referente a vacinação "
 				+ "\ncontra a COVID na Cidade de São Paulo");

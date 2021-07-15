@@ -6,6 +6,14 @@ public class MenuInicial {
 
 	public static void menu(){
 		
+		System.out.println(" _____   _                       _                _    _           \r\n"
+				+ "(____ \\ (_)                     (_)              | |  | |          \r\n"
+				+ " _   \\ \\ _  ___  ___  ____ ____  _ ____   ____   | |  | |___  ____ \r\n"
+				+ "| |   | | |/___)/___)/ _  )    \\| |  _ \\ / _  |   \\ \\/ / _  |/ ___)\r\n"
+				+ "| |__/ /| |___ |___ ( (/ /| | | | | | | ( ( | |    \\  ( ( | ( (___ \r\n"
+				+ "|_____/ |_(___/(___/ \\____)_|_|_|_|_| |_|\\_||_|     \\/ \\_||_|\\____)\r\n"
+				+ "                                                                   ");
+		
 		Scanner ler = new Scanner(System.in);
 		System.out.println("******************************** MENU **********************************");
 		System.out.println("\n                   Bem vinde ao Dissemina Vac!!!\n"

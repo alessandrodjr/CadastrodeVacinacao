@@ -42,7 +42,7 @@ public class SituacaoGeral {
 		}
 
 		else if (opcao == 2) {
-			System.out.println("\nVacina Já!");
+			System.out.println("\nVacina Já! ");
 			
 		}
 

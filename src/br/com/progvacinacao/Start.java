@@ -6,7 +6,6 @@ public class Start {
 		
 		MenuInicial.menu();
 		
-
 	}
 
 }
